@@ -136,6 +136,7 @@ body {
 .about {
 }
 .about-titl {
+  visibility: hidden;
 }
 .about-list {
 }
@@ -228,6 +229,7 @@ span {
   cursor: pointer;
 }
 .content-headline {
+  visibility: hidden;
 }
 .content-list {
 }
@@ -243,7 +245,7 @@ span {
 }
 .content-buttonall:hover,
 .content-buttonall:focus {
-  background: #4d5ae5;
+  background: #e7e9fc;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 4px;
@@ -262,11 +264,12 @@ span {
 }
 .content-button:hover,
 .content-button:focus {
-  background: #404bbf;
+  background: #e7e9fc;
 }
 
 /* ----------------OUR TEAM--------------------- */
-.team {
+.team-two {
+  visibility: hidden;
   background-color: #ffffff;
 }
 .team-list {
